@@ -57,7 +57,7 @@
 }
 
 .ErrorText span{
-    background-color: rgba(166, 157, 157, 0.66);
-    box-shadow: rgba(0, 0, 0, 0.63) 0 22px 70px 4px;
+    text-shadow: rgba(1, 71, 237, 0.63) 5px 22px 70px 4px;
     border-radius: 6px;
+    color: white;
 }

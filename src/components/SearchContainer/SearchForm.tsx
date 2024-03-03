@@ -64,7 +64,7 @@ const SearchForm = () => {
                         ? <MoviesList/>
                         :
                         totalResults === 0
-                            ? (<p className={formCss.ErrorText}><span> Not found, please check your request </span></p>)
+                            ? (<p className={formCss.ErrorText}><span> Not found, please check your request :( </span></p>)
 
                             : (foundedMovies.map(movie => <MoviesListCards movie={movie} key={movie.id}/>))
                 }
